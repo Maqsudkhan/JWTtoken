@@ -49,7 +49,7 @@ namespace SendEmailMessage.Application.Services.EmailService
             await smptClient.SendMailAsync(mailMessage);
         }
     }
-}
+}     
 
 
 

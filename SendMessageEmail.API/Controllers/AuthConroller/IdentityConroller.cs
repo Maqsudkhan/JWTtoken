@@ -9,9 +9,9 @@ namespace SendMessageEmail.API.Controllers.AuthConroller
     [ApiController]
     public class IdentityConroller : ControllerBase
     {
-        private readonly AuthService _authService;
+        private readonly IAuthService _authService;
 
-        public IdentityConroller(AuthService authService)
+        public IdentityConroller(IAuthService authService)
         {
             _authService = authService;
         }
